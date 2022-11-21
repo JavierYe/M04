@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Practica6</title>
+        
+    </head>
+    <body>
+        <form><!--todo los formulario enpieza desde este etiqueta-->
+            <label>Nom</label><!--El titul de el furmulario-->
+            <input type="text" id="name" name="name" value="el teu nom"><br><br><!--El comtenido de el furmulario y value es el texto que mustra dentro el formulario-->
+            <label>Cognom</label>
+            <input type="text" id="name" name="Cognom" value="el teu cognom"><br><br><!--type es el tipo de formulario-->
+            <label>Edat</label>
+            <input type="text" id="edat" name="name" value="20"><br><br>    
+            <p>Cicle formatiu que es vol sursar l'any cinent:</p><br>
+            <input type="radio" id="daw" name="curs" value="DAW" checked><!--checked es para el opcion que sera predeterminante-->
+            <label for="daw">DAM</label><br>
+            <input type="radio" id="asix" name="curs" value="ASIx">
+            <label for="asix">ASIX</label><br>
+            <input type="radio" id="altre" name="curs" value="ALTRE">
+            <label for="altre">Altre...</label><br>
+            <p>Marca les teves aficions:</p><br>
+            <label>Estudia</label>
+            <input type="checkbox" checked><br><!--checked es para el opcion que sera predeterminante-->
+            <label>ASIX</label>
+            <input type="checkbox"><br>
+            <label>Llibres</label>
+            <input type="checkbox"><br>
+            <label>Jugar a Magic</label>
+            <input type="checkbox"><br>
+            <label>Fer burilles</label>
+            <input type="checkbox"><br>
+            <label>Altres</label>
+            <textarea name="message" rows="10" cols="50" >Especifica quines</textarea><br><br><!--rows el altura y cols es ample-->
+            <label for="select">L'estàndard d'HTML que més m'agrada:</label>
+            <select id="select" name="select">
+                <option>HTML 4.01</option>
+                <option>HTML 1.0</option>
+                <option selected>HTML5</option><!--selected es para el opcion que sera predeterminante-->
+            </select>
+        </form>
+    </body>
+</html>
