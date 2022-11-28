@@ -1,16 +1,16 @@
-#fondo{
-    position: absolute;
-    height: 280px;
-    width: 280px;
+#fondo{                                     /*diferencia entre absoludo y relativo es posicionamiento*/
+    position: absolute;                    /*posicion absoludo posicionamiento es relativo a la posición de otro elemento envolvente*/
+    height: 280px;                         /*height es el alto*/
+    width: 280px;                          /*width es el ancho*/
 }
 #azul{
-    background-color: blue;
+    background-color: blue;             /*background-color es color de la fondo*/
     height: 100px;
     width: 160px;
-    margin-top:40px;
+    margin-top:40px;                        /*margin es distancia fura de este caja,top es arriba,left esquerra*/
     margin-left: 20px;
-    padding-top: 20px;
-    position: relative;
+    padding-top: 20px;                      /*padding es distancia dentro de este caja*/
+    position: relative;                     /*posicion relative es relativo a la posición que el elemento mismo tendría sin posicionamiento*/
 }
 #amalliyo{
     background-color: yellow;
@@ -27,7 +27,7 @@
     margin-left: 100px;
     padding-top: 60px;
     position: relative;
-    z-index: -1;
+    z-index: -1;                            /*z-index es el nivell de la prioridad de muestra,por defecto es 0*/
 }
 #verde{
     background-color: green;
