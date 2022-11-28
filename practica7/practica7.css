@@ -1,0 +1,38 @@
+#fondo{
+    position: absolute;
+    height: 280px;
+    width: 280px;
+}
+#azul{
+    background-color: blue;
+    height: 100px;
+    width: 160px;
+    margin-top:40px;
+    margin-left: 20px;
+    padding-top: 20px;
+    position: relative;
+}
+#amalliyo{
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    position: relative;
+}
+#rojo{
+    background-color: red;
+    height: 60px;
+    width: 160px;
+    margin-top:-20px;
+    margin-left: 100px;
+    padding-top: 60px;
+    position: relative;
+    z-index: -1;
+}
+#verde{
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    margin-left: 100px;
+    position: relative;
+}
