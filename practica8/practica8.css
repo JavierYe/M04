@@ -1,0 +1,25 @@
+#capecera{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+div .gmail{
+    padding: 4px;
+    margin: 4px;
+}
+#sessio{
+    color: white;
+    padding: 9px 23px;
+    background-color: #1a73e8;;;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+#menu{
+    padding: 3px 13px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
